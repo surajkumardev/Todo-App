@@ -1,0 +1,59 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(173, 18, 216);
+
+}
+/*must include this line to remove the browser problem */
+
+body{
+    background-image: url(img.png);
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+#todos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.inputt{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+h3{
+    color: red;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 3px;
+    border:1px solid gray;
+    
+
+}
+
+button {
+    border-radius: 5px; 
+    border: 1px solid #cccccc; 
+    background-color: #780bdf; 
+    color: white; 
+    padding: 10px 15px; 
+    margin-top:3px ;
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+button:hover {
+    background-color: #2f218a; 
+    transform: translateY(-2px); 
+}
